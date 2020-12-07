@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  position: relative;
+  top: 17px;
+  left: 15px;
+}
+.icon1 {
+  height: 20px;
+  width: 20px;
+  border-radius: 9px;
+  position: relative;
+  top: 4px;
+  margin-right: 8px;
+}
+
+.head {
+  display: flex;
+  height: 65px;
+  color: white;
+  background-color: rgb(20, 20, 20);
+  font-family: "Poppins";
+}
+.app_title {
+  position: relative;
+  top: 7px;
+  left: 35px;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px 10px 10px;
+  background-color: rgb(187, 187, 187);
+  width: 170px;
+  height: 100vh;
+  font-family: "Poppins";
+  font-size: 18px;
+}
+#home,
+#adduser,
+#newissue,
+#logout {
+  text-decoration: none;
+  color: black;
+}
